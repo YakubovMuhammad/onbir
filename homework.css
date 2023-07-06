@@ -1,0 +1,366 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.ekran {
+  width: 100%;
+  min-height: 2500px;
+  background: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+.teva {
+  width: 100%;
+  padding: 1% 0%;
+  background: white;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+  padding: 1%;
+}
+.teva>:nth-child(12){
+    width: 100px;
+    height: 3px;
+    background: #68bb46;
+    position: absolute;
+    left: 346px;
+    border-radius: 5px;
+    top: 50px;
+}
+.teva > :nth-child(1) {
+  left: 200px;
+  position: absolute;
+}
+.teva > img {
+  width: 80px;
+}
+.teva > h4 {
+  font-size: 14px;
+  font-weight: 550;
+  padding: 1% 0%;
+}
+.teva > :nth-child(8) {
+  color: darkblue;
+}
+.teva > :nth-child(9) {
+  color: red;
+}
+.teva > :nth-child(10) {
+  color: rgb(3, 3, 91);
+}
+.rasm {
+  width: 100%;
+}
+.rasm > img {
+  width: 100%;
+  overflow: hidden;
+}
+.iktali {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  padding: 1% 0% 1% 0;
+  gap: 30px;
+}
+.bir {
+  width: 50%;
+  height: 350px;
+  background: #f0f4f8;
+  position: relative;
+  display: flex;
+}
+.ikki {
+  width: 50%;
+  height: 350px;
+  background: #f0f4f8;
+  position: relative;
+}
+.bir > img {
+  overflow: hidden;
+  position: absolute;
+  width: 800px;
+}
+.ikki > img {
+  overflow: hidden;
+  position: absolute;
+  right: 30px;
+  width: 800px;
+}
+.zay {
+  padding: 3%;
+}
+.zay > h1 {
+  position: absolute;
+  left: 40px;
+  top: 45px;
+  width: 400px;
+  font-size: 45px;
+}
+.zay > h3 {
+  position: absolute;
+  left: 40px;
+  top: 120px;
+  width: 400px;
+  color: gray;
+  font-weight: 400;
+}
+.zayi {
+  padding: 3%;
+}
+.zayi > h1 {
+  position: absolute;
+  left: 40px;
+  top: 45px;
+  width: 400px;
+  font-size: 45px;
+}
+.zayi > h3 {
+  position: absolute;
+  left: 40px;
+  top: 120px;
+  width: 400px;
+  color: gray;
+  font-weight: 400;
+}
+.pi {
+  position: absolute;
+  left: 30px;
+  font-weight: 500;
+  font-size: 15px;
+}
+.piku {
+  width: 100%;
+  flex-direction: column;
+  background: red;
+}
+.rasmlar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3% 3%;
+}
+.birinchi {
+  width: 160px;
+}
+
+.ikkinchi {
+  width: 160px;
+}
+.uchinchi {
+  width: 160px;
+}
+.tortinchi {
+  width: 160px;
+}
+.beshinchi {
+  width: 160px;
+}
+.oltinchi {
+  width: 160px;
+}
+.birinchi > img {
+  width: 160px;
+}
+.ikkinchi > img {
+  width: 160px;
+}
+.uchinchi > img {
+  width: 160px;
+}
+.tortinchi > img {
+  width: 160px;
+}
+.beshinchi > img {
+  width: 160px;
+}
+.oltinchi > img {
+  width: 160px;
+}
+.birinchi > :nth-child(2) {
+  font-size: 13px;
+  font-weight: 400;
+}
+.birinchi > :nth-child(3) {
+  font-size: 18px;
+}
+.ikkinchi > :nth-child(2) {
+  font-size: 13px;
+  font-weight: 400;
+}
+.uchinchi > :nth-child(2) {
+  font-size: 13px;
+  font-weight: 400;
+}
+.tortinchi > :nth-child(2) {
+  font-size: 13px;
+  font-weight: 400;
+}
+.beshinchi > :nth-child(2) {
+  font-size: 13px;
+  font-weight: 400;
+}
+.ikkinchi > :nth-child(3) {
+  font-size: 18px;
+}
+.uchinchi > :nth-child(3) {
+  font-size: 18px;
+}
+.tortinchi > :nth-child(3) {
+  font-size: 18px;
+}
+.beshinchi > :nth-child(3) {
+  font-size: 18px;
+}
+.tortrasm {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2%;
+}
+.birku {
+  width: 350px;
+}
+.birku > img {
+  width: 350px;
+
+  object-fit: cover;
+}
+.ikkiku {
+  width: 350px;
+}
+.ikkiku > img {
+  width: 350px;
+
+  object-fit: cover;
+}
+.uchku {
+  width: 350px;
+}
+.uchku > img {
+  width: 350px;
+
+  object-fit: cover;
+}
+.torku {
+  width: 350px;
+}
+.torku > img {
+  width: 350px;
+
+  object-fit: cover;
+}
+.sur {
+  width: 320px;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  flex-direction: column;
+  bottom: 1220px;
+  padding: 10px;
+  gap: 10px;
+  background: rgba(255, 255, 255, 0.788);
+  border-radius: 0 50px 50px 0;
+}
+.sur > :nth-child(1) {
+  font-size: 20px;
+}
+.sur > :nth-child(2) {
+  font-size: 15px;
+  color: gray;
+  font-weight: 400;
+}
+.artel1 {
+  width: 100%;
+}
+.artel1 > img {
+  width: 100%;
+  object-fit: cover;
+}
+.oq {
+  width: 100%;
+  height: 100px;
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 265px 80px 265px;
+  font-size: 10px;
+}
+.yashil {
+  width: 100%;
+  background: #68bb46;
+  display: flex;
+  align-items: center;
+  padding: 15px 265px 15px 265px;
+  gap: 35px;
+}
+.nomer {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.nomer > :nth-child(1) {
+  color: #ffffff;
+}
+.nomer > :nth-child(2) {
+  color: #ffffff;
+  font-size: 13px;
+}
+.yashil > :nth-child(2) {
+  color: #ffffff;
+}
+.yashil > :nth-child(3) {
+  width: 220px;
+  height: 30px;
+  background: #ffffff;
+  border-radius: 7px;
+}
+.yashil > button {
+  width: 150px;
+  height: 30px;
+  border-radius: 7px;
+  background: #ffffff;
+  border: none;
+}
+.artel2 {
+  width: 100%;
+  background: #21242f;
+}
+.artel2 > img {
+  width: 100%;
+  object-fit: cover;
+}
+.tagi {
+  width: 100%;
+  background: #21242f;
+  display: flex;
+  padding: 20px 265px 20px 265px;
+  position: relative;
+}
+.tagi > :nth-child(1) {
+  color: #82828e;
+  font-size: 15px;
+  font-weight: 500;
+}
+.tagi > :nth-child(2) {
+  color: #82828e;
+  font-size: 15px;
+  font-weight: 500;
+  position: absolute;
+  left: 500px;
+}
+.tagi > :nth-child(3) {
+  color: #82828e;
+  font-size: 15px;
+  font-weight: 500;
+  position: absolute;
+  left: 800px;
+}
